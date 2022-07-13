@@ -1,0 +1,33 @@
+body{
+    font-family: Inconsolata;
+    font-size: 15pt;
+    background-color: #A4FFA3;
+    color: #AD0E61;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    font-size: 40pt;
+    
+}
+
+header, footer{
+    background-color:#FA46A4;
+    text-align:center;
+}
+
+#hero{
+    text-align:center;
+    font-weight: 600;
+}
+
+#hero img{
+    width:400px;
+}
+
+footer{
+    color:black;
+    text-align:center;
+    font-size:10pt;
+    font-weight: 500;
+}

@@ -52,6 +52,22 @@ header, footer{
     position:fixed;
     bottom:5px;
     right:5px;
+    padding:5px;
+    background:white;
+    border:3px solid lightgray;
+    opacity: 50%;
+}
+
+#top-button:link, #top-button:visited{
+    color:black;
+    font-variant:small-caps;
+    text-decoration:none;
+}
+
+#top-button:hover, #top-button:active{
+    background:darkgrey;
+    color:white;
+    text-decoration:none;
 }
 
 

@@ -1,18 +1,18 @@
 body{
     font-family: Inconsolata;
     font-size: 15pt;
-    background-color: #A4FFA3;
-    color: #AD0E61;
+    background-color: lightgreen;
+    color: darkblue;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display";
     font-size: 40pt;
-    
 }
 
 header, footer{
-    background-color:#FA46A4;
+    color:lightblue;
+    background-color:blue;
     text-align:center;
 }
 
@@ -25,9 +25,27 @@ header, footer{
     width:400px;
 }
 
-footer{
+#hobbies h2{
+    margin-bottom:5px;
+}
+
+#hobbies ul li{
+    margin-bottom: 2px;
+    border:5px inset darkslategray;
+    border-bottom-right-radius:10px;
+    background:rgb(196, 248, 196);
     color:black;
+    font-weight: 600;
+}
+
+#hobbies ul li:first-letter{
+    color:darkslategray;
+    font-size:20pt;
+}
+
+footer{
+    color:white;
     text-align:center;
-    font-size:10pt;
+    font-size:15pt;
     font-weight: 500;
 }

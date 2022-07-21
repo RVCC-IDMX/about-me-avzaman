@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, footer{
-    color:lightblue;
+    color:white;
     background-color:blue;
     text-align:center;
 }
@@ -25,8 +25,9 @@ header, footer{
     width:400px;
 }
 
-#hobbies h2, #gallery h2{
+#hobbies h2, #gallery h2, #article h2{
     margin-bottom:5px;
+    font-style:italic;
 }
 
 #hobbies ul li, #gallery figure{
@@ -47,10 +48,16 @@ header, footer{
     padding:10px;
 }
 
+#top-button{
+    position:fixed;
+    bottom:5px;
+    right:5px;
+}
+
 
 footer{
-    color:white;
     text-align:center;
     font-size:15pt;
     font-weight: 500;
 }
+

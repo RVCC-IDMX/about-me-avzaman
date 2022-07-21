@@ -25,11 +25,11 @@ header, footer{
     width:400px;
 }
 
-#hobbies h2{
+#hobbies h2, #gallery h2{
     margin-bottom:5px;
 }
 
-#hobbies ul li{
+#hobbies ul li, #gallery figure{
     margin-bottom: 2px;
     border:5px inset darkslategray;
     border-bottom-right-radius:10px;
@@ -42,6 +42,11 @@ header, footer{
     color:darkslategray;
     font-size:20pt;
 }
+
+#gallery figure{
+    padding:10px;
+}
+
 
 footer{
     color:white;

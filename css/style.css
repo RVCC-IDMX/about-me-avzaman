@@ -39,9 +39,16 @@ header, footer{
     font-weight: 600;
 }
 
-#hobbies ul li:first-letter{
+#article p:first-letter{
     color:darkslategray;
     font-size:20pt;
+    font-weight: 600;
+    background: rgb(169, 234, 255);
+    padding:5px;
+    margin-right:10px;
+    border:black solid 2px;
+    font-family: "Playfair Display";
+    float:left; 
 }
 
 #gallery figure{

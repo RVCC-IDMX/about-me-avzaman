@@ -16,6 +16,9 @@ header, footer{
     text-align:center;
 }
 
+
+/*Hero*/
+
 #hero{
     text-align:center;
     font-weight: 600;
@@ -29,6 +32,9 @@ header, footer{
     margin-bottom:5px;
     font-style:italic;
 }
+
+
+/*Hobbies*/
 
 #hobbies{
     display:flex;
@@ -46,13 +52,16 @@ header, footer{
     padding:10px;
 }
 
+
+/*Gallery*/
+
 #gallery figure{
+    padding:10px;
     display:grid;
     grid-template-columns:2fr 1fr;
 }
 
 #gallery figcaption{
-    
     display:flex;
     justify-content:center;
     align-items:center;
@@ -62,7 +71,9 @@ header, footer{
 }
 
 
-#article p:first-letter{
+/*Article*/
+
+#lit p:first-letter{
     color:darkslategray;
     font-size:20pt;
     font-weight: 600;
@@ -72,10 +83,6 @@ header, footer{
     border:black solid 2px;
     font-family: "Playfair Display";
     float:left; 
-}
-
-#gallery figure{
-    padding:10px;
 }
 
 #top-button{
@@ -108,8 +115,32 @@ footer{
 }
 
 @media screen and (min-width:60em) {
-    #gallery {
+    figure {
+        display:grid;
+        grid-template-columns:2fr 1fr;
 
     }
+
+    figcaption{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+    }
     
+    #lit div{
+        max-width: 100%;
+        columns:40rem;
+    }
+}
+
+@media screen and (min-width:100em){
+    #gallery{
+        display:grid;
+        grid-template-rows:reapeat(3,1fr);
+    }
+}
+
+*{
+    outline:1px solid red;
 }

@@ -30,14 +30,37 @@ header, footer{
     font-style:italic;
 }
 
-#hobbies ul li, #gallery figure{
+#hobbies{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#hobbies ul li, #gallery figure, #gallery figcaption{
     margin-bottom: 2px;
     border:5px inset darkslategray;
     border-bottom-right-radius:10px;
     background:rgb(196, 248, 196);
     color:black;
     font-weight: 600;
+    padding:10px;
 }
+
+#gallery figure{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+}
+
+#gallery figcaption{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    margin-left:1rem;
+    
+}
+
 
 #article p:first-letter{
     color:darkslategray;
@@ -84,3 +107,9 @@ footer{
     font-weight: 500;
 }
 
+@media screen and (min-width:60em) {
+    #gallery {
+
+    }
+    
+}

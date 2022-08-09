@@ -197,7 +197,7 @@ fieldset{
 legend{
     background-color:darkblue;
     color:white;
-    padding:5em;
+    padding:.5em;
 }
 
 #contact input, #contact textarea, #contact select, #contact button{

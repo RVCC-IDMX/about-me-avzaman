@@ -64,10 +64,11 @@ main{
 .navbar-links a{
     color:white;
     padding: 1rem 1.5rem;
-    transition: all 1s ease;
+    
 }
 
 .navbar-links a:hover, .navbar-links a:focus{
+    transition: all 1s ease;
     color:black;
     background-color: white;
     border-radius:10px;
